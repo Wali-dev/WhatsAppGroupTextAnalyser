@@ -23,7 +23,7 @@ class AuthMiddleware(BaseHTTPMiddleware):
         Verify the JWT Bearer token and return the user ID if valid
         """
         try:
-            print(token)
+            # print(token)
             if token.startswith("Bearer "):
                 token = token.split(" ", 1)[1]
 

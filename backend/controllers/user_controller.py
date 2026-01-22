@@ -71,7 +71,7 @@ async def login(
 
      
         access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-        print(user)
+        # print(user)
 
         access_token = create_access_token(
             data={
